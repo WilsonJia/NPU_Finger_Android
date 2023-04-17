@@ -1,6 +1,7 @@
 # 澎科一指通 Android版本
 國立澎湖科技大學校務系統 非官方App，使用Kotlin開發
-![GITHUB]( https://imgur.com/a/4O3J96L.png "澎科一指通")
+![GITHUB]( https://imgur.com/a/9pM9O8Y.jpg "澎科一指通")
+
 
 # 支援平臺
 目前僅支援Android，Android版本持續開發中
