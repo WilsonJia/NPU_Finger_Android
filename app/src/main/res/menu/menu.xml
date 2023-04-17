@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<!--    <item-->
+<!--        android:id="@+id/menu_share"-->
+<!--        android:title="Share"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:icon="@drawable/ic_baseline_share_24"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_language"-->
+<!--        android:title="Language"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:icon="@drawable/ic_baseline_language_24"/>-->
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="設定"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+    <item
+        android:id="@+id/menu_iot"
+        android:title="IoT"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+    <item
+        android:id="@+id/menu_house"
+        android:title="租屋專區"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+    <item
+        android:id="@+id/menu_restaurant"
+        android:title="餐廳地圖"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+    <item
+        android:id="@+id/menu_hospital"
+        android:title="醫院地圖"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+</menu>

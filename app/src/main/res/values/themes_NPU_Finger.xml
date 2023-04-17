@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NPU_Finger" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/milk_tea</item>
+        <item name="colorPrimaryVariant">@color/milk_tea</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FB7167</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/milk_tea</item>
+
+    </style>
+
+    <style name="Theme.NPU_Finger_NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/milk_tea</item>
+        <item name="colorPrimaryVariant">@color/milk_tea</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FB7167</item>
+        <item name="colorSecondaryVariant">#D8D8D8</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/milk_tea</item>
+        <item name="colorOnTertiary">#D8D8D8</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/milk_tea</item>
+<!--        <item name="android:textColor">@color/black</item>-->
+    </style>
+
+    <style name="Text" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">#283593</item>
+        <item name="colorPrimaryVariant">#283593</item>
+        <item name="colorOnPrimary">#283593</item>
+    </style>
+
+    <style name="Text2" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+
+
+    <style name="TitleTextSize" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">#FFF</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>  <!--讓跳出的選項視窗不會遮住Toolbar-->
+    </style>
+</resources>

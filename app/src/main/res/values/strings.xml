@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">澎科一指通</string>
+
+    <string name="cannot_use_biometric">無法指紋辨識</string>
+    <string name="fingerprint">指紋辨識</string>
+    <string name="plz_input_ur_fingerprint">請輸入您的指紋</string>
+    <string name="cancel">取消</string>
+    <string name="fingerprint_success">指紋辨識成功</string>
+    <string name="fingerprint_fail">指紋辨識失敗</string>
+    <string name="back"><![CDATA[<返回]]></string>
+
+    <string name="calendar">行事曆</string>
+    <string name="score">查成績</string>
+    <string name="noshow">查缺曠</string>
+    <string name="call">找校安</string>
+    <string name="courseTable">看課表</string>
+    <string name="reward">查獎懲</string>
+    <string name="greaduate">查欠修</string>
+    <string name="logout">登出</string>
+</resources>
